@@ -11,8 +11,15 @@ background-color: chartreuse;
 border: solid;
 height: 400px;
 width: 400px;
+background-color: antiquewhite;
 
 }
 body{
     background-color: blue;
+}
+#innerbody{
+    height: 400px;
+    width: 400px;
+    border: 2px;
+    background-color: antiquewhite;
 }
