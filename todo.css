@@ -1,0 +1,26 @@
+#navigationbar{
+    display: flex;
+    justify-content: space-around;
+border: 10px solid chartreuse;
+background-color: chartreuse;
+}
+#navigationbar a{
+    text-decoration: none;
+}
+body{
+    background-color: blue;
+}
+#innerbody{
+    background-color: antiquewhite;
+    height: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#Todo{
+    background-color: aliceblue;
+    
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 600px;
+    te
+}

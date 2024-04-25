@@ -1,0 +1,28 @@
+#navigation a{
+text-decoration: none;
+
+}
+#navigation{
+    display: flex;
+    justify-content: space-around;
+border: 10px solid chartreuse;
+background-color: chartreuse;
+}
+#goals{
+    border: solid;
+
+}
+#primary{
+    border: solid;
+    height: 400px;
+    width: 500px;
+}
+#secondary{
+    border: solid;
+    height: 400px;
+    width: 500px;
+} 
+#Goals{
+    display: flex;
+    gap: 10%;
+}

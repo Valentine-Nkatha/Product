@@ -1,0 +1,18 @@
+#topnav a{
+    text-decoration: none;
+}
+#topnav{
+   display: flex;
+    justify-content: space-around;
+border: 10px solid chartreuse;
+background-color: chartreuse; 
+}
+#innerbox{
+border: solid;
+height: 400px;
+width: 400px;
+
+}
+body{
+    background-color: blue;
+}

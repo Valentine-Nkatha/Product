@@ -1,0 +1,35 @@
+body{
+    background-color: azure;
+}
+form{
+    background-color: blue;
+    text-align: center;
+    border-color: black;
+    font-size: xx-large;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+#input{
+   padding: 4%; 
+   width: 50%;
+   border-radius: 40px;
+   height: 70%;
+   background-color: chartreuse;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+   
+}
+#login{
+    padding: 3%;
+    border-radius: 40px;
+    width: 30%;
+    height:50% ;
+}
+#signup{
+    padding: 3%;
+    border-radius: 40px;
+    width: 30%;
+    height:50% ;
+    background-color: chartreuse;
+}

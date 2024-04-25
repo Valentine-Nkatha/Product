@@ -1,0 +1,32 @@
+#topnav a{
+text-decoration: none;
+
+}
+#topnav{
+    display: flex;
+    justify-content: space-around;
+border: 10px solid chartreuse;
+background-color: chartreuse;
+
+}
+#images{
+    
+display: flex;
+
+    
+
+}
+body{
+    background-color: blue;
+    font-size: xx-large;
+}
+#Image{
+    padding-top: 50px;
+    height: 800px;
+    width: 400px;
+}
+
+#paragraphone{
+    display: flex;
+    justify-content: space-around;
+}

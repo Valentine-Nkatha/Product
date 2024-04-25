@@ -1,0 +1,28 @@
+#navigation a{
+    text-decoration: none;
+}
+#Image{
+height: 400px;
+width: 600px;
+object-fit: none;
+padding-top: 20px;
+}
+#Paragraph{
+    display: flex;
+    justify-content: space-around;
+}
+#navigation{
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    background-color: blue;
+    font-size: xx-large;
+    
+}
+#navigation{
+    display: flex;
+    justify-content: space-around;
+border: 10px solid chartreuse;
+background-color: chartreuse;
+}
