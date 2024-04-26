@@ -17,9 +17,66 @@ background-color: antiquewhite;
 body{
     background-color: blue;
 }
-#innerbody{
+#innerbox{
     height: 400px;
-    width: 400px;
+    width: 1000px;
     border: 2px;
     background-color: antiquewhite;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#Achieve{
+    background-color: antiquewhite;
+    border: solid;
+    height: 50px;
+    width: 1000px;
+    border: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+#logo{
+    height: 100px;
+    width: 80px;
+    object-fit:contain;
+}
+@media screen and(min-width:270px) and(max-width:470px){
+    #topnav{
+        display: flex;
+         justify-content: space-around;
+      
+     }
+     #innerbox{
+     border: solid;
+     height: 100px;
+     width: 100px;
+     background-color: antiquewhite;
+     
+     }
+     body{
+         background-color: blue;
+     }
+     #innerbox{
+         height: 100px;
+         width: 100px;
+         border: 2px;
+         background-color: antiquewhite;
+         margin-left: 10px;
+         margin-right: 10px;
+     }
+     #Achieve{
+         background-color: antiquewhite;
+         border: solid;
+         height: 50px;
+         width: 100px;
+         border: 2px;
+         margin-left: 10px;
+         margin-right: 10px;
+         
+     }
+     #logo{
+         height: 100px;
+         width: 80px;
+         object-fit:contain;
+     }
 }

@@ -10,19 +10,96 @@ background-color: chartreuse;
 }
 #goals{
     border: solid;
+    background-color: antiquewhite;
+    width:800px ;
+    margin-left: 180px;
+    
 
 }
 #primary{
     border: solid;
-    height: 400px;
-    width: 500px;
+    height: 600px;
+    width: 800px;
+    background-color: antiquewhite;
+    margin-left: 180px;
+    display: flex;
+    
 }
 #secondary{
     border: solid;
-    height: 400px;
-    width: 500px;
+    height: 600px;
+    width: 800px;
+    background-color: antiquewhite;
 } 
 #Goals{
     display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    height: 600px;
+    width: 1000px;
     gap: 10%;
+}
+
+body{
+    background-color: blue;
+}
+#logo{
+    height: 100px;
+    width: 80px;
+    object-fit:contain;
+}
+#add{
+    height: 20px;
+    
+}
+@media screen and(min-width:270) and(max-width:470){
+    #navigation{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    #goals{
+        border: solid;
+        background-color: antiquewhite;
+        width:400px ;
+        margin-left: 80px;
+        
+    
+    }
+    #primary{
+        border: solid;
+        height: 400px;
+        width: 400px;
+        background-color: antiquewhite;
+        margin-left: 80px;
+        display: flex;
+        
+    }
+    #secondary{
+        border: solid;
+        height: 400px;
+        width: 400px;
+        background-color: antiquewhite;
+    } 
+    #Goals{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        height: 400px;
+        width: 100px;
+        gap: 10%;
+    }
+    
+    body{
+        background-color: blue;
+    }
+    #logo{
+        height: 100px;
+        width: 80px;
+        object-fit:contain;
+    }
+    #add{
+        height: 20px;
+        
+    }
 }

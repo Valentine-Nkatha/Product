@@ -28,5 +28,39 @@ body{
 
 #paragraphone{
     display: flex;
+   
     justify-content: space-around;
+}
+#logo{
+    height: 100px;
+    width: 80px;
+    object-fit:contain;
+}
+@media screen and (min-width:270px) and(max-width:470px){
+    #topnav{
+        display: flex;
+        
+    
+    }
+    #images{
+        
+    display: flex;
+    
+        
+    
+    }
+    body{
+        background-color: blue;
+        font-size: xx-large;
+    }
+    #Image{
+        padding-top: 50px;
+        height: 800px;
+        width: 400px;
+    }
+    
+    #paragraphone{
+        display: flex;
+        justify-content: space-around;
+}
 }

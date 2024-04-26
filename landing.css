@@ -26,3 +26,40 @@ body{
 border: 10px solid chartreuse;
 background-color: chartreuse;
 }
+#logo{
+    height: 100px;
+    width: 80px;
+    object-fit:contain;
+}
+@media screen and(min-width:270px) and(max-width:470px){
+    #Image{
+        height: 200px;
+        width: 300px;
+        object-fit: none;
+        padding-top: 20px;
+        }
+        #Paragraph{
+            display: flex;
+            justify-content: space-around;
+        }
+        #navigation{
+            display: flex;
+            justify-content: space-around;
+        }
+        body{
+            background-color: blue;
+            font-size: xx-large;
+            
+        }
+        #navigation{
+            display: flex;
+            justify-content: space-around;
+        border: 10px solid chartreuse;
+        background-color: chartreuse;
+        }
+        #logo{
+            height: 100px;
+            width: 80px;
+            object-fit:contain;
+        }
+}

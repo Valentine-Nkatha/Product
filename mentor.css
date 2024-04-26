@@ -14,7 +14,62 @@ background-color: chartreuse;
     background-color: antiquewhite;
     margin-left: 30px;
     margin-right: 30px;
+    height: 600px;
 }
 #image{
+   height: 300px; 
+   width: 400px;
+   object-fit: cover;
+   border-radius: 40px;
+   margin-left: 20px;
+   
+}
+#Image{
+    display: flex;
+    gap: 200px;
+}
+#profile{
+    font-size: xx-large;
+}
+#Description{
+    font-size: xx-large;
+    margin-left: 20px;
+}
+#logo{
+    height: 100px;
+    width: 80px;
+    object-fit:contain;
+}
+@media screen and(min-width:270px) and (max-width:470) {
+    #navigation{
+        display: flex;
+        flex-wrap: wrap;
     
+    }
+    #innerbody{
+        background-color: antiquewhite;
+        margin-left: 30px;
+        margin-right: 30px;
+        height: 800px;
+    }
+    #image{
+       height: 100px; 
+       width: 100px;
+       
+       border-radius: 40px;
+       margin-left: 20px;
+       
+    }
+    #Image{
+        display: flex;
+        
+        gap: 200px;
+    }
+    #profile{
+        font-size: xx-large;
+        display: grid;
+    }
+    #Description{
+        font-size: xx-large;
+        margin-left: 20px;
 }

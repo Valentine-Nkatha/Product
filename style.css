@@ -17,6 +17,8 @@ form{
    height: 70%;
    background-color: chartreuse;
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: larger;
+   color: black;
    
    
 }
@@ -32,4 +34,48 @@ form{
     width: 30%;
     height:50% ;
     background-color: chartreuse;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+#signup a{
+    text-decoration: none;
+}
+#login a{
+    text-decoration: none;
+}
+#footer a{
+    text-decoration: none;
+}
+@media screen and(min-width:270px) and(max-width:470px){
+    form{
+      
+        border-color: black;
+        font-size: small;
+        margin-left: 100px;
+        margin-right: 100px;
+    
+    }
+    #input{
+       padding: 4%; 
+       width: 30%;
+       border-radius: 40px;
+       height: 30%;
+       
+       
+       
+    }
+    #login{
+        padding: 3%;
+        border-radius: 40px;
+        width: 30%;
+        height:50% ;
+    }
+    #signup{
+        padding: 3%;
+        border-radius: 40px;
+        width: 30%;
+        height:30% ;
+       
+    } 
 }
