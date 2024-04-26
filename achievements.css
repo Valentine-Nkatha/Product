@@ -5,7 +5,8 @@
    display: flex;
     justify-content: space-around;
 border: 10px solid chartreuse;
-background-color: chartreuse; 
+background-color: chartreuse;
+
 }
 #innerbox{
 border: solid;
@@ -15,7 +16,8 @@ background-color: antiquewhite;
 
 }
 body{
-    background-color: blue;
+    background-color:#c2c4c6;
+    font-size: larger;
 }
 #innerbox{
     height: 400px;
@@ -54,7 +56,7 @@ body{
      
      }
      body{
-         background-color: blue;
+        
      }
      #innerbox{
          height: 100px;

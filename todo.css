@@ -3,12 +3,13 @@
     justify-content: space-around;
 border: 10px solid chartreuse;
 background-color: chartreuse;
+height: 60px;
 }
 #navigationbar a{
     text-decoration: none;
 }
 body{
-    background-color: blue;
+    background-color: #c2c4c6;
 }
 /* #innerbody{
     background-color: antiquewhite;
@@ -27,7 +28,7 @@ body{
 #logo{
     height: 100px;
     width: 80px;
-    object-fit:contain;
+    object-fit: contain;
 }
 @media screen  and (min-width:470px) and (max-width:670px){
     #navigationbar{

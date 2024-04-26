@@ -17,28 +17,99 @@ display: flex;
 
 }
 body{
-    background-color: blue;
-    font-size: xx-large;
+    background-color: #c2c4c6;
+    font-size: large;
 }
 #Image{
     padding-top: 50px;
-    height: 800px;
-    width: 400px;
+    height: 400px;
+    width: 800px;
+    
 }
 
 #paragraphone{
     display: flex;
    
     justify-content: space-around;
+    margin-top: 10px;
 }
 #logo{
     height: 100px;
     width: 80px;
     object-fit:contain;
 }
+#buttons{
+   padding: 20px; 
+   border-radius: 40px;
+   background-color: chartreuse;
+   width: 100px;
+   font-size: large;
+}
 @media screen and (min-width:270px) and(max-width:470px){
     #topnav{
         display: flex;
+        flex-wrap: wrap;
+        
+    
+    }
+    #images{
+        
+    display: flex;
+    flex-wrap: wrap;
+    
+        
+    
+    }
+    body{
+        
+        font-size: small;
+    }
+    #Image{
+        padding-top: 50px;
+        height: 80px;
+        width: 40px;
+    }
+    
+    #paragraphone{
+        display: flex;
+        /* justify-content: space-around; */
+        flex-wrap: wrap;
+}
+}
+@media screen and(min-width:470px) and(max-width:670px){
+    #topnav{
+        display: flex;
+        flex-wrap: wrap;
+        
+    
+    }
+    #images{
+        
+    display: flex;
+    flex-wrap: wrap;
+    
+        
+    
+    }
+    body{
+        
+        font-size:small;
+    }
+    #Image{
+        padding-top: 50px;
+        height: 80px;
+        width: 40px;
+    }
+    
+    #paragraphone{
+        display: grid;
+        /* justify-content: space-around; */
+}
+}
+@media screen and(min-width:670px) and(max-width:870px){
+    #topnav{
+        display: flex;
+        flex-wrap: wrap;
         
     
     }
@@ -46,12 +117,75 @@ body{
         
     display: flex;
     
+    flex-wrap: wrap;
         
     
     }
     body{
-        background-color: blue;
-        font-size: xx-large;
+        
+        font-size: small;
+    }
+    #Image{
+        padding-top: 50px;
+        height: 80px;
+        width: 40px;
+    }
+    
+    #paragraphone{
+        display: flex;
+        flex-wrap: wrap;
+}
+}
+@media screen and(min-width:870px) and(max-width:1170px){
+    #topnav{
+        display: flex;
+        flex-wrap: wrap;
+        
+    
+    }
+    #images{
+        
+    display: flex;
+    flex-wrap: wrap;
+    
+        
+    
+    }
+    body{
+        
+        font-size:small;
+    }
+    #Image{
+        padding-top: 50px;
+        height: 80px;
+        width: 40px;
+    }
+    
+    #paragraphone{
+        display: flex;
+        flex-wrap: wrap;
+        
+}
+
+}
+@media screen and(min-width:1170px) and(max-width:130px){
+    #topnav{
+        display: flex;
+        flex-wrap: wrap;
+        
+    
+    }
+    #images{
+        
+    display: flex;
+    flex-wrap: wrap;
+    
+        
+    
+    }
+    body{
+        
+        font-size: small;
     }
     #Image{
         padding-top: 50px;
@@ -61,6 +195,8 @@ body{
     
     #paragraphone{
         display: flex;
-        justify-content: space-around;
+        flex-wrap: wrap;
+       
 }
+
 }
