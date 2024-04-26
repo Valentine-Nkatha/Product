@@ -31,35 +31,161 @@ background-color: chartreuse;
     width: 80px;
     object-fit:contain;
 }
+#buttons{
+    background-color: chartreuse;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    border-radius: 40px;
+}
 @media screen and(min-width:270px) and(max-width:470px){
     #Image{
-        height: 200px;
-        width: 300px;
+        height: 150px;
+        width: 150px;
         object-fit: none;
         padding-top: 20px;
         }
         #Paragraph{
             display: flex;
-            justify-content: space-around;
+            flex-wrap: wrap;
         }
         #navigation{
             display: flex;
-            justify-content: space-around;
+            flex-wrap: wrap;
         }
         body{
-            background-color: blue;
-            font-size: xx-large;
+            
+            font-size: small;
             
         }
         #navigation{
             display: flex;
-            justify-content: space-around;
-        border: 10px solid chartreuse;
-        background-color: chartreuse;
+           flex-wrap: wrap;
         }
         #logo{
-            height: 100px;
-            width: 80px;
-            object-fit:contain;
+            height: 50px;
+            width: 40px;
+            
+        }
+}
+@media screen and(min-width:470px) and(max-width:670px){
+    #Image{
+        height: 150px;
+        width: 150px;
+        object-fit: none;
+        padding-top: 20px;
+        }
+        #Paragraph{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #navigation{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        body{
+            
+            font-size: small;
+            
+        }
+        #navigation{
+            display: flex;
+           flex-wrap: wrap;
+        }
+        #logo{
+            height: 50px;
+            width: 40px;
+            
+        }
+}
+@media screen and(min-width:670px) and(max-width:870px){
+    #Image{
+        height: 150px;
+        width: 150px;
+        object-fit: none;
+        padding-top: 20px;
+        }
+        #Paragraph{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #navigation{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        body{
+            
+            font-size: small;
+            
+        }
+        #navigation{
+            display: flex;
+           flex-wrap: wrap;
+        }
+        #logo{
+            height: 50px;
+            width: 40px;
+            
+        }
+}
+@media screen and(min-width:870px) and(max-width:1170px){
+    #Image{
+        height: 150px;
+        width: 150px;
+        object-fit: none;
+        padding-top: 20px;
+        }
+        #Paragraph{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #navigation{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        body{
+            
+            font-size: small;
+            
+        }
+        #navigation{
+            display: flex;
+           flex-wrap: wrap;
+        }
+        #logo{
+            height: 50px;
+            width: 40px;
+            
+        }
+}
+@media screen and(min-width:1170px) and(max-width:1370px){
+    #Image{
+        height: 150px;
+        width: 150px;
+        object-fit: none;
+        padding-top: 20px;
+        }
+        #Paragraph{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #navigation{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        body{
+            
+            font-size: small;
+            
+        }
+        #navigation{
+            display: flex;
+           flex-wrap: wrap;
+        }
+        #logo{
+            height: 50px;
+            width: 40px;
+            
         }
 }

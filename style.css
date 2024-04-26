@@ -25,15 +25,17 @@ form{
 #login{
     padding: 3%;
     border-radius: 40px;
-    width: 30%;
+    width: 50%;
     height:50% ;
+    font-size: larger;
+    color: #000;
 }
 #signup{
     padding: 3%;
     border-radius: 40px;
     width: 30%;
     height:50% ;
-    background-color: chartreuse;
+    background-color: white;
     font-size: larger;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
@@ -50,10 +52,138 @@ form{
 @media screen and(min-width:270px) and(max-width:470px){
     form{
       
-        border-color: black;
+      
         font-size: small;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+    
+    }
+    #input{
+       padding: 4%; 
+       width: 30%;
+       border-radius: 40px;
+       height: 30%;
+       
+       
+       
+    }
+    #login{
+        padding: 3%;
+        border-radius: 40px;
+        width: 30%;
+        height:50% ;
+    }
+    #signup{
+        padding: 3%;
+        border-radius: 40px;
+        width: 30%;
+        height:30% ;
+       
+    } 
+}
+@media screen and(min-width:470px) and(max-width:670px){
+    form{
+      
+      
+        font-size: small;
+        margin-left: 20px;
+        margin-right: 20px;
+    
+    }
+    #input{
+       padding: 4%; 
+       width: 30%;
+       border-radius: 40px;
+       height: 30%;
+       
+       
+       
+    }
+    #login{
+        padding: 3%;
+        border-radius: 40px;
+        width: 30%;
+        height:50% ;
+    }
+    #signup{
+        padding: 3%;
+        border-radius: 40px;
+        width: 30%;
+        height:30% ;
+       
+    } 
+}
+@media screen and(min-width:670px) and(max-width:870px){
+    form{
+      
+      
+        font-size: small;
+        margin-left: 20px;
+        margin-right: 20px;
+    
+    }
+    #input{
+       padding: 4%; 
+       width: 30%;
+       border-radius: 40px;
+       height: 30%;
+       
+       
+       
+    }
+    #login{
+        padding: 3%;
+        border-radius: 40px;
+        width: 30%;
+        height:50% ;
+    }
+    #signup{
+        padding: 3%;
+        border-radius: 40px;
+        width: 30%;
+        height:30% ;
+       
+    } 
+}
+@media screen and(min-width:870px) and(max-width:1170px){
+    form{
+      
+      
+        font-size: small;
+        margin-left: 20px;
+        margin-right: 20px;
+    
+    }
+    #input{
+       padding: 4%; 
+       width: 30%;
+       border-radius: 40px;
+       height: 30%;
+       
+       
+       
+    }
+    #login{
+        padding: 3%;
+        border-radius: 40px;
+        width: 30%;
+        height:50% ;
+    }
+    #signup{
+        padding: 3%;
+        border-radius: 40px;
+        width: 30%;
+        height:30% ;
+       
+    } 
+}
+@media screen and(min-width:1170px) and(max-width:1370px){
+    form{
+      
+      
+        font-size: small;
+        margin-left: 20px;
+        margin-right: 20px;
     
     }
     #input{

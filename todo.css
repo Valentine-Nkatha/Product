@@ -30,6 +30,26 @@ body{
     width: 80px;
     object-fit: contain;
 }
+@media screen  and (min-width:270px) and (max-width:470px){
+    #navigationbar{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    #navigationbar a{
+        text-decoration: none;
+    }
+    
+   
+    #Todo{
+        
+        
+        margin-left: 40px;
+        margin-right: 40px;
+        height: 600px;
+        
+    }
+}
 @media screen  and (min-width:470px) and (max-width:670px){
     #navigationbar{
         display: flex;
@@ -39,12 +59,70 @@ body{
     #navigationbar a{
         text-decoration: none;
     }
-    body{
-        background-color: blue;
-    }
+    
    
     #Todo{
-        background-color: aliceblue;
+        
+        
+        margin-left: 40px;
+        margin-right: 40px;
+        height: 600px;
+        
+    }
+}
+@media screen  and (min-width:670px) and (max-width:870px){
+    #navigationbar{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    #navigationbar a{
+        text-decoration: none;
+    }
+    
+   
+    #Todo{
+        
+        
+        margin-left: 40px;
+        margin-right: 40px;
+        height: 600px;
+        
+    }
+}
+@media screen  and (min-width:870px) and (max-width:1170px){
+    #navigationbar{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    #navigationbar a{
+        text-decoration: none;
+    }
+    
+   
+    #Todo{
+        
+        
+        margin-left: 40px;
+        margin-right: 40px;
+        height: 600px;
+        
+    }
+}
+@media screen  and (min-width:1170px) and (max-width:1370px){
+    #navigationbar{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    #navigationbar a{
+        text-decoration: none;
+    }
+    
+   
+    #Todo{
+        
         
         margin-left: 40px;
         margin-right: 40px;

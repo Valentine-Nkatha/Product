@@ -59,7 +59,7 @@ body{
 #Primary{
     width: 500px;
 }
-@media screen and(min-width:270) and(max-width:470){
+@media screen and(min-width:270px) and(max-width:470px){
     #navigation{
         display: flex;
         flex-wrap: wrap;
@@ -68,43 +68,244 @@ body{
     #goals{
         border: solid;
         background-color: antiquewhite;
-        width:400px ;
+        width:100px ;
         margin-left: 80px;
         
     
     }
     #primary{
-        border: solid;
-        height: 400px;
-        width: 400px;
+        
+        height: 150px;
+        width: 150px;
         background-color: antiquewhite;
         margin-left: 80px;
         display: flex;
+        flex-wrap: wrap;
         
     }
     #secondary{
         border: solid;
-        height: 400px;
-        width: 400px;
+        height: 150px;
+        width: 150px;
         background-color: antiquewhite;
     } 
     #Goals{
         display: flex;
         justify-content: space-around;
         margin-top: 10px;
-        height: 400px;
-        width: 100px;
-        gap: 10%;
+        height: 150px;
+        width: 50px;
+        gap: 4%;
     }
     
     
     #logo{
-        height: 100px;
-        width: 80px;
+        height: 50px;
+        width: 40px;
         object-fit:contain;
     }
     #add{
-        height: 20px;
+        height: 10px;
+        
+    }
+}
+@media screen and(min-width:470px) and(max-width:670px){
+    #navigation{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    #goals{
+        border: solid;
+        background-color: antiquewhite;
+        width:100px ;
+        margin-left: 80px;
+        
+    
+    }
+    #primary{
+        
+        height: 150px;
+        width: 150px;
+        background-color: antiquewhite;
+        margin-left: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #secondary{
+        border: solid;
+        height: 150px;
+        width: 150px;
+        background-color: antiquewhite;
+    } 
+    #Goals{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        height: 150px;
+        width: 50px;
+        gap: 4%;
+    }
+    
+    
+    #logo{
+        height: 50px;
+        width: 40px;
+        object-fit:contain;
+    }
+    #add{
+        height: 10px;
+        
+    }
+}
+@media screen and(min-width:670px) and(max-width:870px){
+    #navigation{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    #goals{
+        border: solid;
+        background-color: antiquewhite;
+        width:100px ;
+        margin-left: 80px;
+        
+    
+    }
+    #primary{
+        
+        height: 150px;
+        width: 150px;
+        background-color: antiquewhite;
+        margin-left: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #secondary{
+        border: solid;
+        height: 150px;
+        width: 150px;
+        background-color: antiquewhite;
+    } 
+    #Goals{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        height: 150px;
+        width: 50px;
+        gap: 4%;
+    }
+    
+    
+    #logo{
+        height: 50px;
+        width: 40px;
+        object-fit:contain;
+    }
+    #add{
+        height: 10px;
+        
+    }
+}
+@media screen and(min-width:870px) and(max-width:1170px){
+    #navigation{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    #goals{
+        border: solid;
+        background-color: antiquewhite;
+        width:100px ;
+        margin-left: 80px;
+        
+    
+    }
+    #primary{
+        
+        height: 150px;
+        width: 150px;
+        background-color: antiquewhite;
+        margin-left: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #secondary{
+        border: solid;
+        height: 150px;
+        width: 150px;
+        background-color: antiquewhite;
+    } 
+    #Goals{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        height: 150px;
+        width: 50px;
+        gap: 4%;
+    }
+    
+    
+    #logo{
+        height: 50px;
+        width: 40px;
+        object-fit:contain;
+    }
+    #add{
+        height: 10px;
+        
+    }
+}
+@media screen and(min-width:1170px) and(max-width:1370px){
+    #navigation{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    #goals{
+        border: solid;
+        background-color: antiquewhite;
+        width:100px ;
+        margin-left: 80px;
+        
+    
+    }
+    #primary{
+        
+        height: 150px;
+        width: 150px;
+        background-color: antiquewhite;
+        margin-left: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #secondary{
+        border: solid;
+        height: 150px;
+        width: 150px;
+        background-color: antiquewhite;
+    } 
+    #Goals{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        height: 150px;
+        width: 50px;
+        gap: 4%;
+    }
+    
+    
+    #logo{
+        height: 50px;
+        width: 40px;
+        object-fit:contain;
+    }
+    #add{
+        height: 10px;
         
     }
 }
