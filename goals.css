@@ -5,8 +5,10 @@ text-decoration: none;
 #navigation{
     display: flex;
     justify-content: space-around;
-border: 10px solid chartreuse;
+border:solid chartreuse;
 background-color: chartreuse;
+height: 20%;
+font-size: xx-large;
 }
 #goals{
     
@@ -15,6 +17,7 @@ background-color: chartreuse;
     margin-left: 80px;
     height: 60px;
     margin-right: 40px;
+    padding: 10px;
     
 
 }
@@ -24,6 +27,7 @@ background-color: chartreuse;
     width: 2000px;
     background-color: antiquewhite;
     margin-left: 80px;
+    padding-left: 20px;
     
     
 }
@@ -34,6 +38,7 @@ background-color: chartreuse;
     background-color: antiquewhite;
     margin-left: 40px;
     margin-right: 40px;
+    padding-left: 20px;
 } 
 #Goals{
     display: flex;
@@ -42,13 +47,14 @@ background-color: chartreuse;
     /* height: 600px; */
     /* width: 1000px; */
     gap: 10%;
+    font-size: x-large;
 }
 
 body{
     background-color: #c2c4c6;
 }
 #logo{
-    height: 100px;
+    height: 60px;
     width: 80px;
     object-fit:contain;
 }
@@ -59,43 +65,52 @@ body{
 #Primary{
     width: 500px;
 }
-@media screen and(min-width:270px) and(max-width:470px){
+#Add{
+    margin-left: 460px;
+}
+#add{
+    margin-left: 460px;
+}
+@media screen and (min-width:270px) and (max-width:470px){
     #navigation{
-        display: flex;
         flex-wrap: wrap;
+        font-size: medium;
     
     }
     #goals{
-        border: solid;
+        border: solid white;
         background-color: antiquewhite;
-        width:100px ;
-        margin-left: 80px;
+        width:240px ;
+        margin-left: 0px;
+        text-align: center;
         
     
     }
     #primary{
         
-        height: 150px;
-        width: 150px;
-        background-color: antiquewhite;
-        margin-left: 80px;
-        display: flex;
+        height: 350px;
+        width: 500px;
+    
+        margin-left: 0px;
+        padding-left: 0px;
+        
         flex-wrap: wrap;
+        font-size: small;
         
     }
     #secondary{
-        border: solid;
-        height: 150px;
-        width: 150px;
+        border: solid white;
+        height: 345px;
+        width: 500px;
         background-color: antiquewhite;
+        font-size: small;
+        margin-right: 0px;
+        margin-left: 1px;
+        padding-left: 0px;
     } 
     #Goals{
-        display: flex;
-        justify-content: space-around;
-        margin-top: 10px;
-        height: 150px;
-        width: 50px;
-        gap: 4%;
+    gap: 0%;
+        
     }
     
     
@@ -105,47 +120,55 @@ body{
         object-fit:contain;
     }
     #add{
-        height: 10px;
         
+        margin-left: 10px;
+        
+    }
+    #Add{
+        margin-left: 10px;
+
     }
 }
-@media screen and(min-width:470px) and(max-width:670px){
+@media screen and (min-width:470px) and (max-width:670px){
     #navigation{
-        display: flex;
         flex-wrap: wrap;
+        font-size: medium;
     
     }
     #goals{
-        border: solid;
+        border: solid white;
         background-color: antiquewhite;
-        width:100px ;
-        margin-left: 80px;
+        width:900px ;
+        margin-left: 0px;
+        text-align: center;
         
     
     }
     #primary{
         
-        height: 150px;
-        width: 150px;
-        background-color: antiquewhite;
-        margin-left: 80px;
-        display: flex;
+        height: 350px;
+        width: 500px;
+    
+        margin-left: 0px;
+        padding-left: 0px;
+        
         flex-wrap: wrap;
+        font-size: small;
         
     }
     #secondary{
-        border: solid;
-        height: 150px;
-        width: 150px;
+        border: solid white;
+        height: 345px;
+        width: 500px;
         background-color: antiquewhite;
+        font-size: small;
+        margin-right: 0px;
+        margin-left: 1px;
+        padding-left: 0px;
     } 
     #Goals{
-        display: flex;
-        justify-content: space-around;
-        margin-top: 10px;
-        height: 150px;
-        width: 50px;
-        gap: 4%;
+    gap: 0%;
+        
     }
     
     
@@ -155,47 +178,55 @@ body{
         object-fit:contain;
     }
     #add{
-        height: 10px;
         
+        margin-left: 10px;
+        
+    }
+    #Add{
+        margin-left: 10px;
+
     }
 }
-@media screen and(min-width:670px) and(max-width:870px){
+@media screen and (min-width:670px) and (max-width:870px){
     #navigation{
-        display: flex;
         flex-wrap: wrap;
+        font-size: medium;
     
     }
     #goals{
-        border: solid;
+        border: solid white;
         background-color: antiquewhite;
-        width:100px ;
-        margin-left: 80px;
+        width:900px ;
+        margin-left: 0px;
+        text-align: center;
         
     
     }
     #primary{
         
-        height: 150px;
-        width: 150px;
-        background-color: antiquewhite;
-        margin-left: 80px;
-        display: flex;
+        height: 350px;
+        width: 500px;
+    
+        margin-left: 0px;
+        padding-left: 0px;
+        
         flex-wrap: wrap;
+        font-size: small;
         
     }
     #secondary{
-        border: solid;
-        height: 150px;
-        width: 150px;
+        border: solid white;
+        height: 345px;
+        width: 500px;
         background-color: antiquewhite;
+        font-size: small;
+        margin-right: 0px;
+        margin-left: 1px;
+        padding-left: 0px;
     } 
     #Goals{
-        display: flex;
-        justify-content: space-around;
-        margin-top: 10px;
-        height: 150px;
-        width: 50px;
-        gap: 4%;
+    gap: 0%;
+        
     }
     
     
@@ -205,97 +236,114 @@ body{
         object-fit:contain;
     }
     #add{
-        height: 10px;
         
+        margin-left: 10px;
+        
+    }
+    #Add{
+        margin-left: 10px;
+
     }
 }
-@media screen and(min-width:870px) and(max-width:1170px){
+@media screen and (min-width:870px) and (max-width:1170px){
     #navigation{
-        display: flex;
         flex-wrap: wrap;
+        font-size: x-large;
     
     }
     #goals{
-        border: solid;
+        border: solid white;
         background-color: antiquewhite;
-        width:100px ;
-        margin-left: 80px;
+        width:900px ;
+        margin-left: 0px;
+        text-align: center;
         
     
     }
     #primary{
         
-        height: 150px;
-        width: 150px;
-        background-color: antiquewhite;
-        margin-left: 80px;
-        display: flex;
+        height: 450px;
+        width: 500px;
+    
+        margin-left: 0px;
+        padding-left: 0px;
+        
         flex-wrap: wrap;
+        font-size: x-large;
         
     }
     #secondary{
-        border: solid;
-        height: 150px;
-        width: 150px;
+        border: solid white;
+        height: 445px;
+        width: 500px;
         background-color: antiquewhite;
+        font-size: x-large;
+        margin-right: 0px;
+        margin-left: 1px;
+        padding-left: 0px;
     } 
     #Goals{
-        display: flex;
-        justify-content: space-around;
-        margin-top: 10px;
-        height: 150px;
-        width: 50px;
-        gap: 4%;
+    gap: 0%;
+    font-size: x-large;
+        
     }
     
     
     #logo{
-        height: 50px;
-        width: 40px;
+        height: 60px;
+        width: 60px;
         object-fit:contain;
     }
     #add{
-        height: 10px;
         
+        margin-left: 10px;
+        
+    }
+    #Add{
+        margin-left: 10px;
+
     }
 }
 @media screen and(min-width:1170px) and(max-width:1370px){
     #navigation{
-        display: flex;
         flex-wrap: wrap;
+        font-size: medium;
     
     }
     #goals{
-        border: solid;
+        border: solid white;
         background-color: antiquewhite;
-        width:100px ;
-        margin-left: 80px;
+        width:900px ;
+        margin-left: 0px;
+        text-align: center;
         
     
     }
     #primary{
         
-        height: 150px;
-        width: 150px;
-        background-color: antiquewhite;
-        margin-left: 80px;
-        display: flex;
+        height: 350px;
+        width: 500px;
+    
+        margin-left: 0px;
+        padding-left: 0px;
+        
         flex-wrap: wrap;
+        font-size: small;
         
     }
     #secondary{
-        border: solid;
-        height: 150px;
-        width: 150px;
+        border: solid white;
+        height: 345px;
+        width: 500px;
         background-color: antiquewhite;
+        font-size: small;
+        margin-right: 0px;
+        margin-left: 1px;
+        padding-left: 0px;
     } 
     #Goals{
-        display: flex;
-        justify-content: space-around;
-        margin-top: 10px;
-        height: 150px;
-        width: 50px;
-        gap: 4%;
+    gap: 0%;
+        
     }
     
     
@@ -305,7 +353,12 @@ body{
         object-fit:contain;
     }
     #add{
-        height: 10px;
         
+        margin-left: 10px;
+        
+    }
+    #Add{
+        margin-left: 10px;
+
     }
 }

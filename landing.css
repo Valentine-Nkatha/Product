@@ -10,6 +10,8 @@ padding-top: 20px;
 #Paragraph{
     display: flex;
     justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #navigation{
     display: flex;
@@ -23,11 +25,13 @@ body{
 #navigation{
     display: flex;
     justify-content: space-around;
-border: 10px solid chartreuse;
+border:  solid chartreuse;
 background-color: chartreuse;
+height: 20%;
+font-size: xx-large;
 }
 #logo{
-    height: 100px;
+    height: 60px;
     width: 80px;
     object-fit:contain;
 }
@@ -38,20 +42,27 @@ background-color: chartreuse;
     height: 50px;
     font-size: large;
     border-radius: 40px;
+    margin-left: 160px;
 }
-@media screen and(min-width:270px) and(max-width:470px){
+#buttons a{
+text-decoration: none;
+}
+#paragraphtwo{
+
+}
+@media screen and (min-width:270px) and (max-width:470px){
     #Image{
-        height: 150px;
-        width: 150px;
-        object-fit: none;
-        padding-top: 20px;
+        height: 250px;
+        width: 250px;
+        object-fit: contain;
+        padding-top: 0px;
         }
         #Paragraph{
-            display: flex;
+            
             flex-wrap: wrap;
         }
         #navigation{
-            display: flex;
+        
             flex-wrap: wrap;
         }
         body{
@@ -59,29 +70,25 @@ background-color: chartreuse;
             font-size: small;
             
         }
-        #navigation{
-            display: flex;
-           flex-wrap: wrap;
-        }
-        #logo{
-            height: 50px;
-            width: 40px;
-            
+        
+        
+        #buttons{
+            margin-left: 25px;
         }
 }
-@media screen and(min-width:470px) and(max-width:670px){
+@media screen and (min-width:470px) and (max-width:670px){
     #Image{
-        height: 150px;
-        width: 150px;
-        object-fit: none;
-        padding-top: 20px;
+        height: 250px;
+        width: 250px;
+        object-fit: contain;
+        padding-top: 0px;
         }
         #Paragraph{
-            display: flex;
+            
             flex-wrap: wrap;
         }
         #navigation{
-            display: flex;
+        
             flex-wrap: wrap;
         }
         body{
@@ -89,29 +96,25 @@ background-color: chartreuse;
             font-size: small;
             
         }
-        #navigation{
-            display: flex;
-           flex-wrap: wrap;
-        }
-        #logo{
-            height: 50px;
-            width: 40px;
-            
+        
+        
+        #buttons{
+            margin-left: 25px;
         }
 }
-@media screen and(min-width:670px) and(max-width:870px){
+@media screen and (min-width:670px) and (max-width:870px){
     #Image{
-        height: 150px;
-        width: 150px;
-        object-fit: none;
-        padding-top: 20px;
+        height: 250px;
+        width: 250px;
+        object-fit: contain;
+        padding-top: 0px;
         }
         #Paragraph{
-            display: flex;
+            
             flex-wrap: wrap;
         }
         #navigation{
-            display: flex;
+        
             flex-wrap: wrap;
         }
         body{
@@ -119,73 +122,61 @@ background-color: chartreuse;
             font-size: small;
             
         }
-        #navigation{
-            display: flex;
-           flex-wrap: wrap;
-        }
-        #logo{
-            height: 50px;
-            width: 40px;
-            
+        
+        
+        #buttons{
+            margin-left: 25px;
         }
 }
-@media screen and(min-width:870px) and(max-width:1170px){
+@media screen and (min-width:870px) and (max-width:1170px){
     #Image{
-        height: 150px;
-        width: 150px;
-        object-fit: none;
-        padding-top: 20px;
+        height: 350px;
+        width: 450px;
+        object-fit: contain;
+        padding-top: 0px;
         }
         #Paragraph{
-            display: flex;
+            
             flex-wrap: wrap;
         }
         #navigation{
-            display: flex;
+        
             flex-wrap: wrap;
         }
         body{
             
-            font-size: small;
+            font-size: x-large;
             
         }
-        #navigation{
-            display: flex;
-           flex-wrap: wrap;
-        }
-        #logo{
-            height: 50px;
-            width: 40px;
-            
+        
+        
+        #buttons{
+            margin-left: 25px;
         }
 }
-@media screen and(min-width:1170px) and(max-width:1370px){
+@media screen and (min-width:1170px) and (max-width:1370px){
     #Image{
-        height: 150px;
-        width: 150px;
-        object-fit: none;
-        padding-top: 20px;
+        height: 350px;
+        width: 500px;
+        object-fit: contain;
+        padding-top: 0px;
         }
         #Paragraph{
-            display: flex;
+            
             flex-wrap: wrap;
         }
         #navigation{
-            display: flex;
+        
             flex-wrap: wrap;
         }
         body{
             
-            font-size: small;
+            font-size: xx-large;
             
         }
-        #navigation{
-            display: flex;
-           flex-wrap: wrap;
-        }
-        #logo{
-            height: 50px;
-            width: 40px;
-            
+        
+        
+        #buttons{
+            margin-left: 25px;
         }
 }

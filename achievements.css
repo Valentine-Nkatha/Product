@@ -4,8 +4,10 @@
 #topnav{
    display: flex;
     justify-content: space-around;
-border: 10px solid chartreuse;
+border: solid chartreuse;
 background-color: chartreuse;
+height: 20%;
+font-size: xx-large;
 
 }
 #innerbox{
@@ -13,6 +15,7 @@ border: solid;
 height: 400px;
 width: 400px;
 background-color: antiquewhite;
+font-size: x-large;
 
 }
 body{
@@ -21,63 +24,261 @@ body{
 }
 #innerbox{
     height: 400px;
-    width: 1000px;
+    width: 1600px;
     border: 2px;
     background-color: antiquewhite;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 #Achieve{
     background-color: antiquewhite;
     border: solid;
     height: 50px;
-    width: 1000px;
+    width: 1600px;
     border: 2px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: larger;
+    margin-left: 60px;
+    margin-right: 60px;
+    
     
 }
 #logo{
-    height: 100px;
+    height: 60px;
     width: 80px;
     object-fit:contain;
 }
-@media screen and(min-width:270px) and(max-width:470px){
+#add{
+    margin-left: 80%;
+}
+#achieve{
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+@media screen and (min-width:270px) and (max-width:470px){
     #topnav{
-        display: flex;
-        flex-wrap: wrap;
+        
+         flex-wrap: wrap;
+        height: 4%;
+         font-size:large;
       
      }
-     #innerbox{
-     
-     height: 50px;
-     width: 50px;
-     
-     
-     }
+    
      body{
-        
+    
+        font-size: small;
      }
      #innerbox{
-         height: 50px;
-         width: 50px;
-         border: 2px;
-         margin-left: 5px;
-         margin-right: 5px;
+         height: 350px;
+         width: 260px;
+         margin-right: 0px;
+         margin-left: 0px;
      }
      #Achieve{
          
-         height: 50px;
-         width: 50px;
+         height: 60px;
+         width: 260px;
          border: 2px;
-         margin-left: 5px;
-         margin-right: 5px;
+         margin-left: 0px;
+         margin-right: 0px;
          
      }
-     #logo{
-         height: 50px;
-         width: 40px;
-         object-fit:contain;
-     }
+     
+    #achieve{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #add{
+        margin-right:20px ;
+    }
 }
+@media screen and (min-width:470px) and (max-width:670){
+    #topnav{
+        
+        flex-wrap: wrap;
+       height: 4%;
+        font-size:large;
+     
+    }
+   
+    body{
+   
+       font-size: small;
+    }
+    #innerbox{
+        height: 350px;
+        width: 260px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    #Achieve{
+        
+        height: 60px;
+        width: 260px;
+        border: 2px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    
+   #achieve{
+       margin-left: 0%;
+       margin-right: 0%;
+   }
+   #add{
+       margin-right:20px ;
+   }
+}
+@media screen and (min-width:670px) and (max-width:870px){
+    #topnav{
+        
+        flex-wrap: wrap;
+       height: 4%;
+        font-size:large;
+     
+    }
+   
+    body{
+   
+       font-size: small;
+    }
+    #innerbox{
+        height: 350px;
+        width: 800px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    #Achieve{
+        
+        height: 70px;
+        width: 800px;
+        border: 2px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    
+   #achieve{
+       margin-left: 0%;
+       margin-right: 0%;
+   }
+   #add{
+       margin-right:150% ;
+       font-size: large;
+   }
+}
+@media screen and (min-width:870px) and (max-width:1070px){
+    #topnav{
+        
+        flex-wrap: wrap;
+       height: 4%;
+        font-size:large;
+     
+    }
+   
+    body{
+   
+       font-size: medium;
+    }
+    #innerbox{
+        height: 300px;
+        width: 1000px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    #Achieve{
+        
+        height: 60px;
+        width: 1000px;
+        border: 2px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    
+   #achieve{
+       margin-left: 0px;
+       margin-right: 0px;
+       width: 100px;
+   }
+   #add{
+    font-size: medium;
+    margin-left: 70%;
+   }
+}
+@media screen and (min-width:1070px) and (max-width:1270px){
+    #topnav{
+        
+        flex-wrap: wrap;
+       height: 4%;
+        font-size:large;
+
+     
+    }
+   
+    body{
+   
+       font-size: large;
+    }
+    #innerbox{
+        height: 300px;
+        width: 100px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    #Achieve{
+        
+        height: 60px;
+        width: 50px;
+        border: 2px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    
+   #achieve{
+       margin-left: 0%;
+       margin-right: 0%;
+   }
+   #add{
+       margin-left:8% ;
+       font-size: medium;
+   }
+}
+@media screen and (min-width:1270px) and (max-width:1470px){
+    #topnav{
+        
+        flex-wrap: wrap;
+       height: 4%;
+        font-size:large;
+     
+    }
+   
+    body{
+   
+       font-size: small;
+    }
+    #innerbox{
+        height: 350px;
+        width: 200px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    #Achieve{
+        
+        height: 60px;
+        width: 200px;
+        border: 2px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    
+   #achieve{
+       margin-left: 0%;
+       margin-right: 0%;
+   }
+   #add{
+       margin-right:20px ;
+   }
+}
+    

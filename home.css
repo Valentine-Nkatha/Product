@@ -5,38 +5,37 @@ text-decoration: none;
 #topnav{
     display: flex;
     justify-content: space-around;
-border: 10px solid chartreuse;
+border: 6px solid chartreuse;
 background-color: chartreuse;
+font-size: xx-large;
+height: 20%;
+
 
 }
-#images{
-    
-display: flex;
 
-    
-
-}
 body{
     background-color: #c2c4c6;
     font-size: large;
 }
 #Image{
-    padding-top: 50px;
-    height: 400px;
+    margin-top: 3%;
+    height: 600px;
     width: 800px;
     
 }
 
 #paragraphone{
     display: flex;
-   
     justify-content: space-around;
-    margin-top: 10px;
+    margin-top: 3%;
+    font-size: x-large;
+
 }
 #logo{
-    height: 100px;
+    height: 60px;
     width: 80px;
     object-fit:contain;
+    background-color: chartreuse;
 }
 #buttons{
    padding: 20px; 
@@ -45,158 +44,191 @@ body{
    width: 100px;
    font-size: large;
 }
-@media screen and (min-width:270px) and(max-width:470px){
+@media screen and (min-width:280px) and (max-width:480px){
     #topnav{
-        display: flex;
         flex-wrap: wrap;
-        
-    
-    }
-    #images{
-        
-    display: flex;
-    flex-wrap: wrap;
+        font-size: small;
+        height: 4%;
+        border: 3px;
+        padding-top: 10px;
     
         
     
     }
+  
     body{
         
         font-size: small;
     }
     #Image{
-        padding-top: 50px;
+        margin-top: 0%;
         height: 80px;
-        width: 40px;
+        width: 80px;
+        
     }
     
     #paragraphone{
-        display: flex;
-        /* justify-content: space-around; */
+        
         flex-wrap: wrap;
-}
-}
-@media screen and(min-width:470px) and(max-width:670px){
-    #topnav{
-        display: flex;
-        flex-wrap: wrap;
-        
-    
-    }
-    #images{
-        
-    display: flex;
-    flex-wrap: wrap;
-    
-        
-    
-    }
-    body{
-        
-        font-size:small;
-    }
-    #Image{
-        padding-top: 50px;
-        height: 80px;
-        width: 40px;
-    }
-    
-    #paragraphone{
-        display: grid;
-        /* justify-content: space-around; */
-}
-}
-@media screen and(min-width:670px) and(max-width:870px){
-    #topnav{
-        display: flex;
-        flex-wrap: wrap;
-        
-    
-    }
-    #images{
-        
-    display: flex;
-    
-    flex-wrap: wrap;
-        
-    
-    }
-    body{
-        
+        margin-top: 0%;
         font-size: small;
-    }
-    #Image{
-        padding-top: 50px;
-        height: 80px;
-        width: 40px;
-    }
-    
-    #paragraphone{
-        display: flex;
-        flex-wrap: wrap;
 }
-}
-@media screen and(min-width:870px) and(max-width:1170px){
-    #topnav{
-        display: flex;
-        flex-wrap: wrap;
-        
-    
-    }
-    #images{
-        
-    display: flex;
-    flex-wrap: wrap;
-    
-        
-    
-    }
-    body{
-        
-        font-size:small;
-    }
-    #Image{
-        padding-top: 50px;
-        height: 80px;
-        width: 40px;
-    }
-    
-    #paragraphone{
-        display: flex;
-        flex-wrap: wrap;
-        
-}
+   
 
+#buttons{
+    padding: 10px; 
+   border-radius: 40px;
+   width: 60px;
+   font-size: small;
 }
-@media screen and(min-width:1170px) and(max-width:130px){
+#logo{
+    height: 30px;
+    width: 30px;
+    
+}
+}
+@media screen and (min-width:470px) and (max-width:670px){
     #topnav{
-        display: flex;
+        flex-wrap: wrap;
+        height: 4%;
+        font-size: small;
+        border: 3px;
+    
+    }
+
+    body{
+        
+        font-size:small;
+    }
+    #Image{
+        margin: 0px;
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+    }
+    
+    #paragraphone{
+        flex-wrap: wrap;
+        margin-top: 0%;
+        font-size: small;
+    
+}
+#logo{
+    height: 30px;
+    width: 30px;
+}
+#buttons{
+    padding: 0px; 
+   border-radius: 40px;
+   width: 60px;
+   font-size: small;
+}
+}
+@media screen and (min-width:670px) and (max-width:870px){
+    #topnav{
         flex-wrap: wrap;
         
     
     }
-    #images{
-        
-    display: flex;
-    flex-wrap: wrap;
     
-        
-    
-    }
     body{
         
         font-size: small;
     }
     #Image{
-        padding-top: 50px;
-        height: 800px;
-        width: 400px;
+        margin: 0px;
+        height: 40px;
+        width: 40px;
     }
     
     #paragraphone{
-        display: flex;
+
         flex-wrap: wrap;
+        margin-top: 0%;
+        font-size: small;
+}
+#logo{
+    height: 30px;
+    width: 30px;
+}
+#buttons{
+    padding: 0px; 
+   border-radius: 40px;
+   width: 60px;
+   font-size: small;
+}
+}
+@media screen and (min-width:870px) and (max-width:1170px){
+    #topnav{
+        flex-wrap: wrap;
+        
+    
+    }
+    
+    body{
+        
+        font-size:small;
+    }
+    #Image{
+        margin-top: 0px;
+        height: 200px;
+        width: 300px;
+    }
+    
+    #paragraphone{
+
+        flex-wrap: wrap;
+        margin-top: 0%;
+        font-size: x-large;
+        
+}
+#logo{
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+}
+#buttons{
+    padding: 0px; 
+   border-radius: 40px;
+   width: 80px;
+   font-size: x-large;
+   height: 60px;
+}
+}
+@media screen and (min-width:1170px) and (max-width:1370px){
+    #topnav{
+    
+        flex-wrap: wrap;
+        
+    
+    }
+    
+    body{
+        
+        font-size: xx-large;
+    }
+    #Image{
+        padding-top: 0px;
+        height: 350px;
+        width: 350px;
+    }
+    
+    #paragraphone{
+        flex-wrap: wrap;
+        margin-top: 0%;
+        font-size: xx-large;
        
 }
-
+#logo{
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+}
+#buttons{
+    padding: 0px; 
+   border-radius: 40px;
+   width: 80px;
+   font-size: x-large;
+   height: 60px;
+}
 }
