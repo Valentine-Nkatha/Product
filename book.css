@@ -1,18 +1,62 @@
-body{
-    margin-left: 600px;
-    margin-right: 600px;
-    font-size: large;
+body {
+  margin-left: 600px;
+  margin-right: 600px;
+  font-size: large;
 }
-#buttons a{
-text-decoration: none;
+#buttons a {
+  text-decoration: none;
 }
 @media screen and (min-width:270px) and (max-width:470px) {
-    body{
-        margin-left: 20px;
-        margin-right: 20px;
-        font-size: x-large;
-    }
-    #buttons a{
-    text-decoration: none;
-    }
+  body {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: small;
+  }
+}
+@media screen and (min-width:470px) and (max-width: 670px) {
+  body {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: small;
+  }
+  
+}
+@media screen and (min-width:670px) and (max-width:870px) {
+  body {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: small;
+  }
+  
+}
+@media screen and (min-width: 870px) and (max-width: 1070px) {
+  body {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: large;
+  }
+  
+}
+@media screen and (min-width: 1070px) and (max-width: 1270px) {
+  body {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: small;
+  }
+  
+}
+@media screen and (min-width: 1270px) and (max-width: 1470px) {
+  body {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: xx-large;
+  }
+  
+}
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    body {
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: xx-large;
+      } 
 }
