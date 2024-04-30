@@ -1,17 +1,16 @@
-#navigationbar{
-    display: flex;
-    justify-content: space-around;
-border: solid chartreuse;
-background-color: chartreuse;
-font-size: xx-large;
-height: 20%;
-
+#navigationbar {
+  display: flex;
+  justify-content: space-around;
+  border: solid chartreuse;
+  background-color: chartreuse;
+  font-size: xx-large;
+  height: 20%;
 }
-#navigationbar a{
-    text-decoration: none;
+#navigationbar a {
+  text-decoration: none;
 }
-body{
-    background-color: #c2c4c6;
+body {
+  background-color: #c2c4c6;
 }
 /* #innerbody{
     background-color: antiquewhite;
@@ -19,136 +18,108 @@ body{
     margin-left: 40px;
     margin-right: 40px;
 } */
-#Todo{
-    background-color: aliceblue; 
-    margin-left: 200px;
-    margin-right: 200px;
-    height: 600px;
-    width: 1400px;
-    font-size: x-large;
-    
+#Todo {
+  background-color: aliceblue;
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 600px;
+  width: 1400px;
+  font-size: x-large;
 }
-#logo{
-    height: 60px;
-    width: 80px;
-    object-fit: contain;
-
+#logo {
+  height: 60px;
+  width: 80px;
+  object-fit: contain;
 }
-#add{
-    padding: 8px;
-    margin-left: 80%;
+#add {
+  padding: 8px;
+  margin-left: 80%;
 }
-#task1 a{
+#task1 a {
+  text-decoration: none;
+}
+#button a {
+  text-decoration: none;
+  
+}
+@media screen and (min-width: 270px) and (max-width: 470px) {
+  #navigationbar {
+    flex-wrap: wrap;
+  }
+  #navigationbar a {
     text-decoration: none;
-}
-@media screen  and (min-width:270px) and (max-width:470px){
-    #navigationbar{
+  }
 
-        flex-wrap: wrap;
-       
-    }
-    #navigationbar a{
-        text-decoration: none;
-    }
-    
-   
-    #Todo{
-        
-        
-        margin-left: 0px;
-        margin-right: 0px;
-        height: 400px;
-        width: 250px;
-        
-    }
-    #add{
-        margin-left: 25%;
-    }
+  #Todo {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 400px;
+    width: 250px;
+  }
+  #add {
+    margin-left: 25%;
+  }
 }
-@media screen  and (min-width:470px) and (max-width:670px){
-    #navigationbar{
-        
-        flex-wrap: wrap;
-       
-    }
-    #navigationbar a{
-        text-decoration: none;
-    }
-    
-   
-    #Todo{
-        
-        
-        margin-left: 0px;
-        margin-right: 0px;
-        height: 400px;
-        width: 250px;
-        
-    }
-    #add{
-        margin-left: 10%;
-    }
+@media screen and (min-width: 470px) and (max-width: 670px) {
+  #navigationbar {
+    flex-wrap: wrap;
+  }
+  #navigationbar a {
+    text-decoration: none;
+  }
+
+  #Todo {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 400px;
+    width: 250px;
+  }
+  #add {
+    margin-left: 10%;
+  }
 }
-@media screen  and (min-width:670px) and (max-width:870px){
-    #navigationbar{
-    
-        flex-wrap: wrap;
-       
-    }
-    #navigationbar a{
-        text-decoration: none;
-    }
-    
-   
-    #Todo{
-        
-        
-        margin-left: 0px;
-        margin-right: 0px;
-        height: 400px;
-        width: 700px;
-        
-    }
+@media screen and (min-width: 670px) and (max-width: 870px) {
+  #navigationbar {
+    flex-wrap: wrap;
+  }
+  #navigationbar a {
+    text-decoration: none;
+  }
+
+  #Todo {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 400px;
+    width: 700px;
+  }
 }
-@media screen  and (min-width:870px) and (max-width:1170px){
-    #navigationbar{
-        
-        flex-wrap: wrap;
-       
-    }
-    #navigationbar a{
-        text-decoration: none;
-    }
-    
-   
-    #Todo{
-        
-        
-        margin-left: 0px;
-        margin-right: 0px;
-        height: 450px;
-        width: 1000px;
-        
-    }
+@media screen and (min-width: 870px) and (max-width: 1170px) {
+  #navigationbar {
+    flex-wrap: wrap;
+  }
+  #navigationbar a {
+    text-decoration: none;
+  }
+
+  #Todo {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 450px;
+    width: 1000px;
+  }
 }
-@media screen  and (min-width:1170px) and (max-width:1370px){
-    #navigationbar{
-    
-        flex-wrap: wrap;
-       
-    }
-    #navigationbar a{
-        text-decoration: none;
-    }
-    
-   
-    #Todo{
-        
-        
-        margin-left: 0px;
-        margin-right: 0px;
-        height: 600px;
-        width: 1250px;
-        
-    }
+@media screen and (min-width: 1170px) and (max-width: 1370px) {
+  #navigationbar {
+    flex-wrap: wrap;
+  }
+  #navigationbar a {
+    text-decoration: none;
+  }
+
+  #Todo {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 600px;
+    width: 1250px;
+  }
 }
