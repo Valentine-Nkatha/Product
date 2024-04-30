@@ -1,6 +1,6 @@
 body {
-  margin-left: 600px;
-  margin-right: 600px;
+  margin-left: 400px;
+  margin-right: 400px;
   font-size: xx-large;
 }
 #buttons a {
@@ -57,6 +57,13 @@ body {
     body {
         margin-left: 0px;
         margin-right: 0px;
+        font-size: xx-large;
+      } 
+}
+@media screen and(min-width:800px) and (max-width:1280px){
+    body {
+        margin-left: 60%;
+        margin-right: 60%;
         font-size: xx-large;
       } 
 }
