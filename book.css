@@ -8,7 +8,10 @@ body {
 }
 #image{
   width: 40%;
-  margin-left: 30%;
+  margin-left: 25%;
+}
+h2{
+  margin-left: 25%;
 }
 
 @media screen and (min-width:270px) and (max-width:470px) {
