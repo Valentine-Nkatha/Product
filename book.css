@@ -1,17 +1,24 @@
 body {
-  margin-left: 400px;
-  margin-right: 400px;
-  font-size: xx-large;
+  /* margin-left: 400px; */
+  /* margin-right: 400px; */
+  font-size: x-large;
+  margin-left: 10%;
 }
 #buttons a {
   text-decoration: none;
 }
 #image{
-  width: 40%;
-  margin-left: 25%;
+  width: 280%;
+  /* margin-left: 25%; */
+  margin-top: 45%;
+  object-fit: contain;
 }
 h2{
   margin-left: 25%;
+}
+.summary{
+  display: flex;
+  gap: 0.5%;
 }
 
 @media screen and (min-width:270px) and (max-width:470px) {
@@ -20,12 +27,34 @@ h2{
     margin-right: 0px;
     font-size: small;
   }
+  h2{
+    margin-left: 0%;
+  }
+  .summary{
+    flex-wrap: wrap;
+    gap: 0.5%;
+  }
+  #image{
+    width: 60%;
+    margin-top: 0%;
+  }
 }
 @media screen and (min-width:470px) and (max-width: 670px) {
   body {
     margin-left: 0px;
     margin-right: 0px;
     font-size: small;
+  }
+  h2{
+    margin-left: 0%;
+  }
+  .summary{
+    flex-wrap: wrap;
+    gap: 0.5%;
+  }
+  #image{
+    width: 60%;
+    margin-top: 0%;
   }
   
 }
@@ -35,6 +64,17 @@ h2{
     margin-right: 0px;
     font-size: small;
   }
+  h2{
+    margin-left: 0%;
+  }
+  .summary{
+    flex-wrap: wrap;
+    gap: 0.5%;
+  }
+  #image{
+    width: 60%;
+    margin-top: 0%;
+  }
   
 }
 @media screen and (min-width: 870px) and (max-width: 1070px) {
@@ -42,6 +82,17 @@ h2{
     margin-left: 0px;
     margin-right: 0px;
     font-size: large;
+  }
+  h2{
+    margin-left: 0%;
+  }
+  .summary{
+    flex-wrap: wrap;
+    gap: 0.5%;
+  }
+  #image{
+    width: 60%;
+    margin-top: 0%;
   }
   
 }
@@ -51,6 +102,17 @@ h2{
     margin-right: 0px;
     font-size: small;
   }
+  h2{
+    margin-left: 0%;
+  }
+  .summary{
+    flex-wrap: wrap;
+    gap: 0.5%;
+  }
+  #image{
+    width: 60%;
+    margin-top: 0%;
+  }
   
 }
 @media screen and (min-width: 1270px) and (max-width: 1470px) {
@@ -59,19 +121,51 @@ h2{
     margin-right: 0px;
     font-size: x-large;
   }
-  
+  h2{
+    margin-left: 0%;
+  }
+  .summary{
+    flex-wrap: wrap;
+    gap: 0.5%;
+  }
+  #image{
+    width: 60%;
+    margin-top: 0%;
+  }
 }
 @media screen and (min-width: 600px) and (max-width: 1024px) {
     body {
         margin-left: 0px;
         margin-right: 0px;
-        font-size: x-large;
+        font-size: large;
       } 
+      h2{
+        margin-left: 0%;
+      }
+      .summary{
+        flex-wrap: wrap;
+        gap: 0.5%;
+      }
+      #image{
+        width: 60%;
+        margin-top: 0%;
+      }
 }
 @media screen and (min-width:800px) and (max-width:1280px){
     body {
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 18%;
+        margin-right: 18%;
         font-size: x-large;
       } 
+      h2{
+        margin-left: 0%;
+      }
+      .summary{
+        flex-wrap: wrap;
+        gap: 0.5%;
+      }
+      #image{
+        width: 60%;
+        margin-top: 0%;
+      }
 }
