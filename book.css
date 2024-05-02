@@ -169,3 +169,22 @@ h2{
         margin-top: 0%;
       }
 }
+@media screen and (min-width:1664px) and (max-width:2560px){
+  body {
+    margin-left: 2%;
+    margin-right: 0%;
+    font-size: 180%;
+  } 
+  h2{
+    margin-left: 30%;
+    
+  }
+  .summary{
+  
+    gap: 0.5%;
+  }
+  #image{
+    width: 260%;
+    margin-top: 90%;
+  }
+}
